@@ -30,4 +30,4 @@ Scanner scanner = new Scanner(System.in);
 
 String input = scanner.nextLine();
 
-C와는 Scanner와 scanf가 다르기 때문에 더 자새히 보면서 익숙해져야갰다.
+C와는 Scanner와 scanf가 다르기 때문에 더 자세히 보면서 익숙해져야다.
