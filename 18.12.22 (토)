@@ -1,0 +1,26 @@
+Chapter 02 변수 variable
+
+기본형
+boolean 논리형
+true와 false 중 하나를 저장할 수 있다.
+
+char 문자형
+단 하나의 문자만 저장 할 수 있다.
+변수에 문자가 저장되는 것 같지만 문자가 아닌 문자의 유니코드(정수)가 저장된다.
+
+특수 문자
+tab \t
+backspace \b
+form feed \f
+carriage return \r
+역슬래쉬 \\
+작은따옴표 \'
+큰 따옴표 \"
+
+byte, short, int, long 정수형
+byte < short < int < long (크기순)
+
+byte 나 short 보다는 int를 사용하는 것이 좋다. byte와 short이 int보다 저장할 수 있는 값의; 범위가 작은 편이라서 연산시 범위를 넘어서 잘못된 결과를 얻을 수 있다.
+
+float, double 실수형
+float타입은 정밀도가 7자리이며 크기는 32bit, 4byte이고, double타입은 정밀도가 15자리이며 크기는 64bit, 8byte이다.
