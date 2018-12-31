@@ -1,4 +1,4 @@
-package Ch02진단문제;
+package Ch02;
 
 public class Ch02Ex01_02 {
 
