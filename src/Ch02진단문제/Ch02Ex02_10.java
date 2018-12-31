@@ -1,13 +1,15 @@
-package phjwww97github.io;
+package Ch02진단문제;
 
 import java.util.*;
 
-public class Ch02Ex02_02 {
+public class Ch02Ex02_10 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt();
-		System.out.println(""+a);
+		int b = scanner.nextInt();
+		
+		System.out.printf("%d + %d = %d",a ,b ,a+b);
 
 	}
 

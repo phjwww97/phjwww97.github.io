@@ -1,16 +1,15 @@
-package phjwww97github.io;
+package Ch02진단문제;
 
 import java.util.*;
 
-public class Ch02Ex02_07 {
+public class Ch02Ex02_12 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
-		System.out.printf("height = ");
 		int a = scanner.nextInt();
+		double b = scanner.nextDouble();
 		
-		System.out.printf("Your height is %dcm.",a);
+		System.out.printf("%.2f * %d = %.0f",b ,a ,a*b);
 
 	}
 

@@ -1,4 +1,4 @@
-package phjwww97github.io;
+package Ch02진단문제;
 
 public class Ch02Ex01_02 {
 

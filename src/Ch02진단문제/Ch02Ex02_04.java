@@ -1,22 +1,20 @@
-package phjwww97github.io;
+package Ch02진단문제;
 
 import java.util.*;
 
-public class Ch02Ex02_13 {
+public class Ch02Ex02_04 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
 		int c = scanner.nextInt();
+		int d = scanner.nextInt();
 		
-		int sum=0, avg=0;
-		
-		sum = a+b+c;
-		avg = (a+b+c)/3;
-		
-		System.out.printf("sum = %d\navg = %d",sum , avg );
+		System.out.printf("%d - %d = %d\n",a ,b,a-b);
+		System.out.printf("%d - %d = %d",c ,d, c-d);
+	}
 
 	}
 
-}
+

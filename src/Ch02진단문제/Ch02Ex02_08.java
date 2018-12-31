@@ -1,4 +1,4 @@
-package phjwww97github.io;
+package Ch02진단문제;
 
 import java.util.*;
 
