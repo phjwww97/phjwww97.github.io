@@ -1,4 +1,4 @@
-package Ch02;
+package Ch02진단문제;
 
 import java.util.*;
 

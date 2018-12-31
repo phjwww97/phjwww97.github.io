@@ -1,15 +1,15 @@
-package Ch02;
+package Ch02진단문제;
 
 import java.util.*;
 
-public class Ch02Ex02_10 {
+public class Ch02Ex02_12 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt();
-		int b = scanner.nextInt();
+		double b = scanner.nextDouble();
 		
-		System.out.printf("%d + %d = %d",a ,b ,a+b);
+		System.out.printf("%.2f * %d = %.0f",b ,a ,a*b);
 
 	}
 
