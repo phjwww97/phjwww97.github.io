@@ -1,0 +1,18 @@
+Chapter 05 배열 array
+
+String배열의 선언과 생성
+
+String[] name = new String[3]; //3개의 문자열을 담을 수 있는 배열을 생성한다.
+
+3개의 String타입의 참조변수를 저장하기 위한 공간이 마련되고 참조형 변수의 기본값은 null이므로 각 요소의 값은 null로 초기화 된다.
+
+String배열의 초기화
+
+String[] name = new String[3];
+name[0] = "Park";
+name[1] = "Hyun";
+name[2] = "min";
+으로 요소에 문자열을 지정할 수 있다.
+
+{} 괄호를 사용해서 간단히 초기화 할 수 있다.
+String[] name = new String[] {"Park", "Hyun", "min"};
